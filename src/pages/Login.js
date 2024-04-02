@@ -3,30 +3,12 @@ import phone_img from "../assets/img.jpg";
 import logo from "../assets/logo1.jpg";
 import gplay from "../assets/gplay.jpg";
 import microsoft from "../assets/microsoft.jpg";
-// import phnbg1 from "../assets/phnbg1.png";
-// import phnbg2 from "../assets/phnbg2.png";
-// import phnbg3 from "../assets/phnbg3.png";
-// import phnbg4 from "../assets/phnbg4.png";
+import { Link } from "react-router-dom";
 
 const phnbg1 = require("../assets/phnbg1.png");
 const phnbg2 = require("../assets/phnbg2.png");
 const phnbg3 = require("../assets/phnbg3.png");
 const phnbg4 = require("../assets/phnbg4.png");
-//ekk dot ayega nah coz hum ekk folder kbahar jaare h bas?
-// achaaaa but abhi tk toh me 2 dot se hi kr rhi thi
-//ptanhi nextjs mai toh ku=hud hojata h import
-//oyee??????????????????????????????
-//bollllllll
-//pesticide naam se ekk chrome exten
-// pta haii but meri adat ho gyi ese bhul jati hu 🥲
-// khaa gyayayyayayayya
-//le ab krle//donee me
-//ahh itne div mat de bass krle
-//me valo playing msg krrdena kuch puchna hoga to
-//aata hun thodi der mai
-//pura chiye// byiiii..okkk
-// mene kyaa glt kr rhi thi
-// login wale  box ki width kam kese
 
 const Login = () => {
   const [bgIndex, setBgIndex] = useState(1);
@@ -55,18 +37,18 @@ const Login = () => {
       <div className="flex flex-col gap-2 ">
         <div className=" border border-[#dbdbdb] bg-[#fafafa]  flex  flex-col  items-center py-6 ">
           <div>
-            <img src={logo} alt="" className="w-48 " />
+            <img src={logo} alt="" className="w-48 cursor-pointer" />
           </div>
           <div className=" flex flex-col px-10  gap-5  ">
             <form className="flex flex-col gap-3  ">
               <div class="relative z-0 w-full  group">
                 <input
                   type="email"
-                  className=" py-3 px-4 w-full text-[12px] bg-zinc-100 text-gray-900 border  border-gray-300 outline-none peer"
+                  className="  py-3 px-4 w-full text-[12px] bg-zinc-100 text-gray-900 border  border-gray-300 outline-none peer "
             
                 />
                 <label
-                  className=" absolute text-[12px] peer-focus:text-[10px] text-gray-500  duration-300 transform  top-3 left-4 peer-focus:-translate-y-2  "
+                  className="pointer-events-none absolute text-[12px] peer-focus:text-[10px] text-gray-500  duration-300 transform  top-3 left-4 peer-focus:-translate-y-2  "
                 >
                   Phone number, username or email
                 </label>
@@ -75,18 +57,18 @@ const Login = () => {
               <div class="relative z-0 w-full  group">
                 <input
                   type="password"
-                  className=" py-3 px-4 w-full text-[12px] bg-zinc-100 text-gray-900 border  border-gray-300 outline-none peer"
+                  className=" py-3 px-4 w-full text-[12px] bg-zinc-100 text-gray-900 border  border-gray-300 outline-none peer "
             
                 />
                 <label
-                  className=" absolute text-[12px] peer-focus:text-[10px] text-gray-500  duration-300 transform  top-3 left-4 peer-focus:-translate-y-2  "
+                  className=" pointer-events-none  absolute text-[12px] peer-focus:text-[10px] text-gray-500  duration-300 transform  top-3 left-4 peer-focus:-translate-y-2  "
                 >
                   Password
                 </label>
               </div>
 
-              <button className="bg-[#0095f6]  px-4 rounded-lg py-1.5 font-bold text-white">
-                Log in
+              <button className="bg-[#0095f6]  px-4 rounded-lg py-1.5 font-bold text-white ">
+               <Link to= "/Home"> Log in</Link>
               </button>
             </form>
 
@@ -97,7 +79,7 @@ const Login = () => {
             </div>
 
             <div className="self-center">
-              <button className=" flex gap-1 items-center px-2 py-1 ">
+              <button className=" flex gap-1 items-center px-2 py-1 cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -121,21 +103,21 @@ const Login = () => {
               </button>
             </div>
 
-            <h3 className="text-blue-900 text-sm self-center">
-              Forgot password?
+            <h3 className="text-blue-900 text-sm self-center cursor-pointer">
+              <Link to="/Forgotpass">Forgot password?</Link>
             </h3>
           </div>
         </div>
 
         <div className="flex border justify-center py-5 gap-1">
           <h3 className="text-black text-md">Don't have an account?</h3>
-          <span className="text-[#0095f6] font-semibold">Sign up</span>
+          <span className="text-[#0095f6] font-semibold cursor-pointer"><Link to="/Signup">Sign up</Link></span>
         </div>
         <div className="self-center flex flex-col gap-2">
           <span className="text-center">Get the app.</span>
           <div className="flex gap-3 ">
-            <img src={gplay} alt="" className="w-36 h-11 rounded-lg" />
-            <img src={microsoft} alt="" className="w-32 h-11 rounded-lg" />
+            <img src={gplay} alt="" className="w-36 h-11 rounded-lg cursor-pointer" />
+            <img src={microsoft} alt="" className="w-32 h-11 rounded-lg cursor-pointer" />
           </div>
         </div>
       </div>
@@ -143,4 +125,4 @@ const Login = () => {
   );
 };
 
-export default Signup;
+export default Login;
