@@ -3,7 +3,7 @@ import React from 'react'
 const Chatbox = () => {
   return (
    
-        <div  className='flex flex-col items-center py-5 px-10  gap-3 ' >
+        <div  className='flex flex-col items-center px-10  gap-3 ' >
         <span className="  rounded-full p-5 border-2 border-gray-600  ">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
   <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>

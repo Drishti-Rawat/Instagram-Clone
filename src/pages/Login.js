@@ -68,7 +68,8 @@ const Login = () => {
               </div>
 
               <button className="bg-[#0095f6]  px-4 rounded-lg py-1.5 font-bold text-white ">
-               <Link to= "/Home"> Log in</Link>
+               <Link to= "/home"> Log in</Link>
+               {/* //routing hamesha small letter mai and pages nbhi small letters...abhi react k liye thike h nextjs mai alag smajhnunag pll */}
               </button>
             </form>
 

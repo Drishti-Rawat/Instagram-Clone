@@ -7,9 +7,10 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import Profile from "./pages/Profile";
+import Explore from "./pages/Explore";
+import Create from "./components/Create";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
          <Route path="/Signup" element={<Signup/>} />
          <Route path="/Forgotpass" element={<Forgotpass/>} />
          <Route path="/Profile" element={<Profile/>} />
+         <Route path="/explore" element={<Explore/>} />
       </Routes>
       {/* <Forgotpass/> */}
       {/* <Login/> */}

@@ -27,9 +27,9 @@ const Suggestion = () => {
                  <Suggestionbox username="Dikshaa" profileimg={dummyprofile}/> 
                  <Suggestionbox username="Dipanshu" profileimg={dummyprofile}/> 
                  <Suggestionbox username="Sakshi" profileimg={dummyprofile}/> 
-                 <Suggestionbox username="Ayush" profileimg={dummyprofile}/> 
+                 <Suggestionbox username="diya" profileimg={dummyprofile}/> 
                  <Suggestionbox username="Nobody" profileimg={dummyprofile}/> 
-                 <Suggestionbox username="Nobody okk" profileimg={dummyprofile}/>  
+                 <Suggestionbox username="Nobody okk " profileimg={dummyprofile}/>  
                 
                </div>
 

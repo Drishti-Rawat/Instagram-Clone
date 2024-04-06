@@ -6,12 +6,12 @@ import Chatbox from "../components/Chatbox";
 
 const Message = () => {
   return (
-    <section className="flex ">
-      <div>
+    <section className="flex h-[100vh] overflow-hidden">
+      <div className="fixed ">
         <MsgNavbar profileimg={profileimg} />
       </div>
 
-      <div className=" py-7">
+      <div className=" py-7 ml-[70px]">
         <div className="flex flex-col gap-5">
           <div className="flex  justify-between items-center gap-52 px-6 ">
             <div className="flex items-center justify-center gap-2">
@@ -56,10 +56,94 @@ const Message = () => {
               </span>
             </div>
 
-            <div className="flex flex-col gap-4 pl-2 overflow-y-scroll  ">
+            <div className="flex flex-col gap-4 pl-2 max-h-[80vh] overflow-y-scroll  ">
+              <Messagebox
+                profileimg={profileimg}
+                username="nitin"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="nitin"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="nitin"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="nitin"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="nitin"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
               <Messagebox
                 profileimg={profileimg}
                 username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an a hfhfh jhfv ttachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="hello"
                 lastText="drishti sent an attachment."
                 time="1h"
               />
@@ -102,6 +186,12 @@ const Message = () => {
               <Messagebox
                 profileimg={profileimg}
                 username="drishti"
+                lastText="drishti sent an attachment."
+                time="1h"
+              />
+              <Messagebox
+                profileimg={profileimg}
+                username="drishti okk"
                 lastText="drishti sent an attachment."
                 time="1h"
               />

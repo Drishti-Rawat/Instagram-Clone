@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 
 const MsgNavbar = ({profileimg}) => {
   return (
-    <div className="border flex flex-col gap-7 justify-center items-center pb-4 pt-7">
-       <Link to="/Home"> <div className='p-3 hover:scale-105 rounded-md hover:bg-gray-200'>
+    <div className="border flex flex-col gap-7 justify-center items-center  py-12">
+       <Link to="/Home"> 
+       <div className='px-3  hover:scale-105 rounded-md hover:bg-gray-200'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="22"
-            height="22"
+            width="28"
+            height="28"
             fill="currentColor"
             class="bi bi-instagram"
             viewBox="0 0 16 16"

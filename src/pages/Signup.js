@@ -58,7 +58,7 @@ function Signup() {
                     <span className='text-blue-900 cursor-pointer'><a href="https://www.facebook.com/help/instagram/261704639352628" >Learn More</a></span>
                 </h3>
                 <h3 className='flex flex-col items-center text-xs text-gray-500 '>
-                    <span>By signing up, you agree to our <span className='text-blue-900 cursor-pointer'><a href="https://help.instagram.com/581066165581870/?locale=en_US" target='_blank'> Terms</a>,<a href="https://www.facebook.com/privacy/policy" target='_blank'>Privacy</a>  </span></span><span className='text-blue-900 cursor-pointer' ><a href="https://www.facebook.com/privacy/policy" target='_blank'>Policy</a> and <a href="https://privacycenter.instagram.com/policies/cookies/" target='_blank'>Cookies Policy</a> .</span>
+                    <span>By signing up, you agree to our <span className='text-blue-900 cursor-pointer'><a href="https://help.instagram.com/581066165581870/?locale=en_US" > Terms</a>,<a href="https://www.facebook.com/privacy/policy">Privacy</a>  </span></span><span className='text-blue-900 cursor-pointer' ><a href="https://www.facebook.com/privacy/policy" >Policy</a> and <a href="https://privacycenter.instagram.com/policies/cookies/">Cookies Policy</a> .</span>
                 </h3>
                 </div>
 
